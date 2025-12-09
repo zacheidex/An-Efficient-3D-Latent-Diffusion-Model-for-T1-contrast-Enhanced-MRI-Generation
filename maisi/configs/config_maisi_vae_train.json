@@ -1,0 +1,24 @@
+{
+    "data_option":{
+        "random_aug": true,
+        "spacing_type": "original",
+        "spacing": null,
+        "select_channel": 0
+    },
+    "autoencoder_train": {
+        "batch_size": 8,
+        "patch_size": [64, 64, 64],
+        "val_batch_size": 8,
+        "val_patch_size": [64,64,64],
+        "val_sliding_window_patch_size": null,
+        "lr": 1e-4,
+        "perceptual_weight": 0,
+        "kl_weight": 1e-7,
+        "adv_weight": 0.1,
+        "recon_loss": "l1",
+        "val_interval": 3,
+        "cache": 0.5,
+        "amp": true,
+        "n_epochs": 100
+    }
+}
