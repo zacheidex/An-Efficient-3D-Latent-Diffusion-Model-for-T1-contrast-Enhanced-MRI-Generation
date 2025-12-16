@@ -63,4 +63,3 @@ If you found this code or work helpful, please cite the following paper:
   journal = {arXiv preprint arXiv:2509.24194},
   year    = {2025}
 }
----
