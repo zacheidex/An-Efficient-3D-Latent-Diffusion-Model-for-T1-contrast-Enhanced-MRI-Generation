@@ -18,6 +18,8 @@ At a high level:
 - `config/` — default training config files (added so the scripts run out-of-the-box)
 - `docs/` — short guides for data layout and common issues
 - `maisi/` — MAISI components used for the VAE and transforms
+- `checkpoints/` — Pretrained VAE checkpoint
+
 
 ---
 
@@ -43,13 +45,7 @@ See **`docs/QUICKSTART.md`** for copy/paste commands.
 ## Data layout
 
 See **`docs/DATA_LAYOUT.md`** for the expected folder structure and file naming.
-
----
-
-## Notes for new users
-
-- These scripts assume your volumes are already **preprocessed** into a consistent 3D grid (256x256x192).
-- VAE checkpoint is downloadable here.
+This scripts assume your volumes are already **preprocessed** into a consistent 3D grid (256x256x192 for the BraTS GLI, MEN, and MET datasets).
 
 ---
 ## Citation
