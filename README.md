@@ -54,18 +54,16 @@ See **`docs/DATA_LAYOUT.md`** for the expected folder structure and file naming.
 - If you run out of GPU memory, reduce `diffusion_train.batch_size` and/or the UNet `channels` in `config/config_train_16g.json`.
 
 ---
-
 ## Citation
 
-If you use this code in academic work, please cite the associated manuscript.
-@misc{eidex2025efficient3dlatentdiffusion,
-      title={An Efficient 3D Latent Diffusion Model for T1-contrast Enhanced MRI Generation}, 
-      author={Zach Eidex and Mojtaba Safari and Jie Ding and Richard Qiu and Justin Roper and David Yu and Hui-Kuo Shu and Zhen Tian and Hui Mao and Xiaofeng Yang},
-      year={2025},
-      eprint={2509.24194},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2509.24194}, 
+If you use this code or the pretrained models in academic work, please cite the following paper:
+
+```bibtex
+@article{eidex2025efficient3dlatentdiffusion,
+  title   = {An Efficient 3D Latent Diffusion Model for T1-contrast Enhanced MRI Generation},
+  author  = {Eidex, Zach and Safari, Mojtaba and Ding, Jie and Qiu, Richard and Roper, Justin and Yu, David and Shu, Hui-Kuo and Tian, Zhen and Mao, Hui and Yang, Xiaofeng},
+  journal = {arXiv preprint arXiv:2509.24194},
+  year    = {2025}
 }
 
 ---
