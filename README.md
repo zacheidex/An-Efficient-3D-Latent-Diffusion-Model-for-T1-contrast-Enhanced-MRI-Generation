@@ -8,8 +8,6 @@ At a high level:
 2. An RFlow-trained **3D diffusion UNet** learns to map **(T1n, T2-FLAIR) latents → T1c latents**.
 3. The VAE decodes predicted latents back to a 3D T1c volume.
 
-> VAE checkpoint is downloadable here.
-
 ---
 
 ## Repository layout
@@ -50,13 +48,13 @@ See **`docs/DATA_LAYOUT.md`** for the expected folder structure and file naming.
 
 ## Notes for new users
 
-- These scripts assume your volumes are already **preprocessed** into a consistent 3D grid (orientation/spacing/size).
-- If you run out of GPU memory, reduce `diffusion_train.batch_size` and/or the UNet `channels` in `config/config_train_16g.json`.
+- These scripts assume your volumes are already **preprocessed** into a consistent 3D grid (256x256x192).
+- VAE checkpoint is downloadable here.
 
 ---
 ## Citation
 
-If you use this code or the pretrained models in academic work, please cite the following paper:
+If you found this code or work helpful, please cite the following paper:
 
 ```bibtex
 @article{eidex2025efficient3dlatentdiffusion,
@@ -65,10 +63,4 @@ If you use this code or the pretrained models in academic work, please cite the 
   journal = {arXiv preprint arXiv:2509.24194},
   year    = {2025}
 }
-
 ---
-
-## License
-
-- The license for this codebase is defined by the top-level repository license (if present).
-- The `maisi/` subtree includes its own licensing terms; see `maisi/LICENSE*`.
