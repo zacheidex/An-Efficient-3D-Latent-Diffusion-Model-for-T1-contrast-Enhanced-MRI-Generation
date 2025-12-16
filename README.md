@@ -57,7 +57,16 @@ See **`docs/DATA_LAYOUT.md`** for the expected folder structure and file naming.
 
 ## Citation
 
-If you use this code in academic work, please cite the associated manuscript (add your BibTeX here).
+If you use this code in academic work, please cite the associated manuscript.
+@misc{eidex2025efficient3dlatentdiffusion,
+      title={An Efficient 3D Latent Diffusion Model for T1-contrast Enhanced MRI Generation}, 
+      author={Zach Eidex and Mojtaba Safari and Jie Ding and Richard Qiu and Justin Roper and David Yu and Hui-Kuo Shu and Zhen Tian and Hui Mao and Xiaofeng Yang},
+      year={2025},
+      eprint={2509.24194},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2509.24194}, 
+}
 
 ---
 
